@@ -50,7 +50,7 @@ function setPlant() {
     }
 
     let plant = document.createElement("img");
-    plant.src = "./piranha-plant.png";
+    plant.src = "img/piranha-plant.png";
 
     let num = randomTile();
     if (currMoleTile && currMoleTile.id == num) {
